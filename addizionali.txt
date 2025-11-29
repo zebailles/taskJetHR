@@ -1,0 +1,408 @@
+{
+  "metadata": {
+    "anno_fiscale": 2025,
+    "descrizione": "Parametri Addizionali Regionali e Comunali (Capoluoghi)",
+    "note": "Dati basati su delibere 2024/2025 e Legge di Bilancio. I comuni in predissesto/dissesto (es. Napoli, Palermo) hanno aliquote maggiorate."
+  },
+  "regioni": {
+    "ABRUZZO": {
+      "codice": "ABR",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 28000, "aliquota": 1.67 },
+        { "fino_a": 50000, "aliquota": 2.87 },
+        { "fino_a": null, "aliquota": 3.33 }
+      ]
+    },
+    "BASILICATA": {
+      "codice": "BAS",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 28000, "aliquota": 1.23 },
+        { "fino_a": 50000, "aliquota": 1.23 },
+        { "fino_a": null, "aliquota": 1.73 }
+      ]
+    },
+    "CALABRIA": {
+      "codice": "CAL",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 28000, "aliquota": 1.73 },
+        { "fino_a": null, "aliquota": 1.73 }
+      ]
+    },
+    "CAMPANIA": {
+      "codice": "CAM",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 1.73 },
+        { "fino_a": 28000, "aliquota": 2.96 },
+        { "fino_a": 50000, "aliquota": 3.20 },
+        { "fino_a": null, "aliquota": 3.33 }
+      ]
+    },
+    "EMILIA-ROMAGNA": {
+      "codice": "EMR",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 1.33 },
+        { "fino_a": 28000, "aliquota": 1.93 },
+        { "fino_a": 50000, "aliquota": 2.93 },
+        { "fino_a": null, "aliquota": 3.33 }
+      ]
+    },
+    "FRIULI-VENEZIA GIULIA": {
+      "codice": "FVG",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 0.70 },
+        { "fino_a": 28000, "aliquota": 1.23 },
+        { "fino_a": 50000, "aliquota": 1.23 },
+        { "fino_a": null, "aliquota": 1.23 }
+      ]
+    },
+    "LAZIO": {
+      "codice": "LAZ",
+      "metodo": "scaglioni_condizionali",
+      "note": "Se reddito <= 28.000, aliquota 1.73% su tutto. Se > 28.000, 3.33% su tutto.",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 1.73 },
+        { "fino_a": 28000, "aliquota": 3.33 },
+        { "fino_a": 50000, "aliquota": 3.33 },
+        { "fino_a": null, "aliquota": 3.33 }
+      ]
+    },
+    "LIGURIA": {
+      "codice": "LIG",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 1.23 },
+        { "fino_a": 28000, "aliquota": 1.23 },
+        { "fino_a": 50000, "aliquota": 1.79 },
+        { "fino_a": null, "aliquota": 2.33 }
+      ]
+    },
+    "LOMBARDIA": {
+      "codice": "LOM",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 1.23 },
+        { "fino_a": 28000, "aliquota": 1.58 },
+        { "fino_a": 50000, "aliquota": 1.72 },
+        { "fino_a": null, "aliquota": 1.73 }
+      ]
+    },
+    "MARCHE": {
+      "codice": "MAR",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 1.23 },
+        { "fino_a": 28000, "aliquota": 1.23 },
+        { "fino_a": 50000, "aliquota": 1.53 },
+        { "fino_a": null, "aliquota": 1.73 }
+      ]
+    },
+    "MOLISE": {
+      "codice": "MOL",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 1.73 },
+        { "fino_a": 28000, "aliquota": 1.93 },
+        { "fino_a": 50000, "aliquota": 2.13 },
+        { "fino_a": null, "aliquota": 2.33 }
+      ]
+    },
+    "PIEMONTE": {
+      "codice": "PIE",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 1.62 },
+        { "fino_a": 28000, "aliquota": 2.13 },
+        { "fino_a": 50000, "aliquota": 2.75 },
+        { "fino_a": null, "aliquota": 3.33 }
+      ]
+    },
+    "PUGLIA": {
+      "codice": "PUG",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 1.33 },
+        { "fino_a": 28000, "aliquota": 1.43 },
+        { "fino_a": 50000, "aliquota": 1.63 },
+        { "fino_a": null, "aliquota": 1.85 }
+      ]
+    },
+    "SARDEGNA": {
+      "codice": "SAR",
+      "metodo": "unica",
+      "aliquota_unica": 1.23
+    },
+    "SICILIA": {
+      "codice": "SIC",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 1.23 },
+        { "fino_a": 28000, "aliquota": 1.23 },
+        { "fino_a": 50000, "aliquota": 1.23 },
+        { "fino_a": null, "aliquota": 1.23 }
+      ]
+    },
+    "TOSCANA": {
+      "codice": "TOS",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 1.42 },
+        { "fino_a": 28000, "aliquota": 1.43 },
+        { "fino_a": 50000, "aliquota": 3.32 },
+        { "fino_a": null, "aliquota": 3.33 }
+      ]
+    },
+    "PROV. AUT. TRENTO": {
+      "codice": "PAT",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 1.23 },
+        { "fino_a": 28000, "aliquota": 1.23 },
+        { "fino_a": 50000, "aliquota": 1.23 },
+        { "fino_a": null, "aliquota": 1.23 }
+      ]
+    },
+    "PROV. AUT. BOLZANO": {
+      "codice": "PAB",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 1.23 },
+        { "fino_a": 28000, "aliquota": 1.23 },
+        { "fino_a": 50000, "aliquota": 1.23 },
+        { "fino_a": null, "aliquota": 1.73 }
+      ]
+    },
+    "UMBRIA": {
+      "codice": "UMB",
+      "metodo": "scaglioni",
+      "scaglioni": [
+        { "fino_a": 15000, "aliquota": 1.23 },
+        { "fino_a": 28000, "aliquota": 1.23 },
+        { "fino_a": 50000, "aliquota": 1.23 },
+        { "fino_a": null, "aliquota": 1.23 }
+      ]
+    },
+    "VALLE D'AOSTA": {
+      "codice": "VDA",
+      "metodo": "unica",
+      "aliquota_unica": 1.23
+    },
+    "VENETO": {
+      "codice": "VEN",
+      "metodo": "soglia_totale",
+      "soglia_esenzione": 15000,
+      "aliquota_soglia": 1.23
+    }
+  },
+  "comuni_capoluogo": [
+    {
+      "comune": "ANCONA",
+      "regione": "MARCHE",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.8,
+        "soglia_esenzione": 13000
+      }
+    },
+    {
+      "comune": "AOSTA",
+      "regione": "VALLE D'AOSTA",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.3,
+        "soglia_esenzione": 12000
+      }
+    },
+    {
+      "comune": "L'AQUILA",
+      "regione": "ABRUZZO",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.8,
+        "soglia_esenzione": 13000
+      }
+    },
+    {
+      "comune": "BARI",
+      "regione": "PUGLIA",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.8,
+        "soglia_esenzione": 10000
+      }
+    },
+    {
+      "comune": "BOLOGNA",
+      "regione": "EMILIA-ROMAGNA",
+      "addizionale_comunale": {
+        "metodo": "scaglioni",
+        "scaglioni": [
+          { "fino_a": 15000, "aliquota": 0.65 },
+          { "fino_a": 28000, "aliquota": 0.70 },
+          { "fino_a": 50000, "aliquota": 0.78 },
+          { "fino_a": null, "aliquota": 0.80 }
+        ],
+        "soglia_esenzione": 15000
+      }
+    },
+    {
+      "comune": "BOLZANO",
+      "regione": "PROV. AUT. BOLZANO",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.2,
+        "soglia_esenzione": 35000
+      }
+    },
+    {
+      "comune": "CAGLIARI",
+      "regione": "SARDEGNA",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.8,
+        "soglia_esenzione": 9000
+      }
+    },
+    {
+      "comune": "CAMPOBASSO",
+      "regione": "MOLISE",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.8,
+        "soglia_esenzione": 9000
+      }
+    },
+    {
+      "comune": "CATANZARO",
+      "regione": "CALABRIA",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.8,
+        "soglia_esenzione": 10000
+      }
+    },
+    {
+      "comune": "FIRENZE",
+      "regione": "TOSCANA",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.2,
+        "soglia_esenzione": 25000
+      }
+    },
+    {
+      "comune": "GENOVA",
+      "regione": "LIGURIA",
+      "addizionale_comunale": {
+        "metodo": "scaglioni",
+        "scaglioni": [
+          { "fino_a": 15000, "aliquota": 0.0 },
+          { "fino_a": 28000, "aliquota": 1.0 },
+          { "fino_a": 50000, "aliquota": 1.1 },
+          { "fino_a": null, "aliquota": 1.2 }
+        ],
+        "soglia_esenzione": 15000
+      }
+    },
+    {
+      "comune": "MILANO",
+      "regione": "LOMBARDIA",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.8,
+        "soglia_esenzione": 23000
+      }
+    },
+    {
+      "comune": "NAPOLI",
+      "regione": "CAMPANIA",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 1.0,
+        "soglia_esenzione": 0,
+        "note": "Aliquota maggiorata Patto per Napoli"
+      }
+    },
+    {
+      "comune": "PALERMO",
+      "regione": "SICILIA",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 1.002,
+        "soglia_esenzione": 12000,
+        "note": "Aliquota maggiorata per riequilibrio finanziario"
+      }
+    },
+    {
+      "comune": "PERUGIA",
+      "regione": "UMBRIA",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.8,
+        "soglia_esenzione": 12000
+      }
+    },
+    {
+      "comune": "POTENZA",
+      "regione": "BASILICATA",
+      "addizionale_comunale": {
+        "metodo": "scaglioni",
+        "scaglioni": [
+          { "fino_a": 28000, "aliquota": 0.8 },
+          { "fino_a": 50000, "aliquota": 0.8 },
+          { "fino_a": null, "aliquota": 1.0 }
+        ]
+      }
+    },
+    {
+      "comune": "ROMA",
+      "regione": "LAZIO",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.9,
+        "soglia_esenzione": 12000
+      }
+    },
+    {
+      "comune": "TORINO",
+      "regione": "PIEMONTE",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.8,
+        "soglia_esenzione": 11790
+      }
+    },
+    {
+      "comune": "TRENTO",
+      "regione": "PROV. AUT. TRENTO",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.8,
+        "soglia_esenzione": 20000
+      }
+    },
+    {
+      "comune": "TRIESTE",
+      "regione": "FRIULI-VENEZIA GIULIA",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.8,
+        "soglia_esenzione": 15000
+      }
+    },
+    {
+      "comune": "VENEZIA",
+      "regione": "VENETO",
+      "addizionale_comunale": {
+        "metodo": "unica_con_soglia",
+        "aliquota": 0.8,
+        "soglia_esenzione": 10000
+      }
+    }
+  ]
+}

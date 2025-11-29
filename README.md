@@ -1,20 +1,11 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# README
 
-# Run and deploy your AI Studio app
+## Descrizione del progetto e Metodologia
 
-This contains everything you need to run your app locally.
+Per la ricerca delle risorse dati e delle modalità di calcolo la guida Jet Hr è stata una delle fonti più affidabili.
 
-View your app in AI Studio: https://ai.studio/apps/drive/18vsZF9EVaVdHGU0ULY-oYlJCrH7v8MTB
+Per affinare i valori relativi ai diversi comuni sono state utilizzate le risorse disponibili sul sito dell’Agenzia delle Entrate, incrociate con i dati regionali per determinare le addizionali IRPEF finali.
 
-## Run Locally
+## Risultati
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+I valori individuati dall’app risultano in linea con quelli del calcolatore Jet Hr, con uno scostamento limitato alle decine.
